@@ -17,6 +17,19 @@
       font-family: 'Great Vibes', cursive;
       color: #6b4f3f;
     }
+    .photo-container {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .photo {
+      max-width: 100%;
+      height: auto;
+      border: 5px solid #6b4f3f;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
   </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-4">
@@ -60,6 +73,15 @@ Aku akan terus menunggumu.
 
 <span class="italic text-[#6b4f3f] block text-right mt-8">- Matthew</span>
     </pre>
+
+    <!-- Foto dengan Border -->
+    <div class="photo-container">
+      <img
+        src="kenangan.jpg"
+        alt="Kenangan Bersama"
+        class="photo"
+      />
+    </div>
   </div>
 </body>
 </html>
